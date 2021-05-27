@@ -1,0 +1,5 @@
+sql connection:
+using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(Helper.CnnVal("StoreDB"))
+{
+
+}
