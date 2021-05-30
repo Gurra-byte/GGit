@@ -2,9 +2,10 @@ import './App.css';
 import Header from './Components/Header';
 import Container from './Components/Container';
 import {useState} from 'react';
+import axios from 'axios'
 
 function App() {
-
+  const [fetching, setFetching] = useState(false)
   const [articles, setArticles] = useState([
     {
       id: 1,
@@ -69,7 +70,20 @@ function App() {
       stock: 5,
       description: 'En väldigt fin tv-apparat',
     }
-  ])
+  ]);
+
+  const fetchArticles = async (fetchURL) => {
+    try {
+        setFetching({fetching: true});
+        const response = await axios.get(fetchURL);
+        setArticles({articles: response.data});
+        setFetching({fetching: false})
+    } catch (e) {
+        console.log(e);
+        setFetching({fetching: false})
+    }
+};
+
 
   return (
     <div className="App">
