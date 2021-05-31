@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "name": "Samsung 55\" UHDR Turbo Tv",
+        "type": "tv",
+        "brand": "Samsung",
+        "price": 2000,
+        "stock": 5,
+        "description": "En väldigt fin tv-apparat"
+    },
+    {
+        "id": 2,
+        "name": "Samsung 55\" UHDR Turbo Tv",
+        "type": "tv",
+        "brand": "Samsung",
+        "price": 20000,
+        "stock": 5,
+        "description": "En väldigt fin tv-apparat"
+    },
+    {
+        "id": 3,
+        "name": "Samsung 55\" UHDR Turbo Tv", 
+        "brand": "Samsung",
+        "price": 20000,
+        "stock": 5,
+        "description": "En väldigt fin tv-apparat"
+    },
+    {
+        "id": 4,
+        "name": "Samsung 55\" UHDR Turbo Tv",
+        "type": "tv",
+        "brand": "Samsung",
+        "price": 20000,
+        "stock": 5,
+        "description": "En väldigt fin tv-apparat"
+    },
+    {
+        "id": 5,
+        "name": "Samsung 55\" UHDR Turbo Tv",
+        "type": "tv",
+        "brand": "Samsung",
+        "price": 20000,
+        "stock": 5,
+        "description": "En väldigt fin tv-apparat"
+    },
+    {
+        "id": 6,
+        "name": "Samsung 55\" UHDR Turbo Tv",
+        "type": "tv",
+        "brand": "Samsung",
+        "price": 20000,
+        "stock": 5,
+        "description": "En väldigt fin tv-apparat"
+    },
+    {
+        "id": 7,
+        "name": "Samsung 55\" UHDR Turbo Tv",
+        "type": "tv",
+        "brand": "Samsung",
+        "price": 20000,
+        "stock": 5,
+        "description": "En väldigt fin tv-apparat"
+    }
+    
+]
