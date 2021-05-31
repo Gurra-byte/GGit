@@ -8,11 +8,18 @@ import data from "./data.json"
 function App() {
 
   const [articles, setArticles] = useState(data);
+  const [user, setUser] = useState();
+  const [createAccount, setCreateAccount] = useState(false);
+
+
+  const Login = (loginDetails)=>{
+    console.log(loginDetails)
+  }
   
   return (
     <div className="App" >
-      <Header />
-      <Container articles={articles}/>
+      <Header user={user} createAccount = {createAccount}/>
+      <Container articles={articles} Login = {Login} />
 
     </div>
   );

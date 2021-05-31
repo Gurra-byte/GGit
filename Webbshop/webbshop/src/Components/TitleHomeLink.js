@@ -2,7 +2,7 @@ import React from 'react'
 
 const TitleHomeLink = () => {
     return (
-        <div id='titleHomeLink'>
+        <div className='titleHomeLink'>
             
         </div>
     )

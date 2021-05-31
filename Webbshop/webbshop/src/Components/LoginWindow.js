@@ -1,11 +1,27 @@
-import React from 'react'
+import React, {useState} from 'react'
 
-const LoginWindow = () => {
+const LoginWindow = ({user, createAccount, Login}) => {
+
+    const [details, setDetails] = useState({Username : "", Email : "", Phone : "", Password : ""})
+    const submitHandeler = (e)=>{
+        e.preventDefault();
+        Login(details);
+    }
+
     return (
-        <div id='loginWindow'>
+        <div className='loginWindow'>
+            
+            <h3>Login</h3>
+            <button>Create New Account</button>
+            <form onSubmit = {submitHandeler}>
+                <input type="text" placeholder="Username" onChange = {(e)=> setDetails({...details, Username : e.target.value})}></input>
+                <input type="text" placeholder="Password"></input>
+                <input type="submit" value="Go"></input>
+            </form>
             
         </div>
     )
+    
 }
 
 export default LoginWindow
