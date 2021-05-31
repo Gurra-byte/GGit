@@ -2,8 +2,8 @@ import React, {useState} from 'react'
 
 const LoginWindow = ({user, createAccount, Login}) => {
 
-    const [details, setDetails] = useState({Username : "", Email : "", Phone : "", Password : ""})
-    const submitHandeler = (e)=>{
+    const [details, setDetails] = useState({Username : "", Password : ""})
+    const submitHandeler = (e) => {
         e.preventDefault();
         Login(details);
     }
@@ -15,7 +15,7 @@ const LoginWindow = ({user, createAccount, Login}) => {
             <button>Create New Account</button>
             <form onSubmit = {submitHandeler}>
                 <input type="text" placeholder="Username" onChange = {(e)=> setDetails({...details, Username : e.target.value})}></input>
-                <input type="text" placeholder="Password"></input>
+                <input type="text" placeholder="Password" onChange = {(e)=> setDetails({...details, Password : e.target.value})}></input>
                 <input type="submit" value="Go"></input>
             </form>
             

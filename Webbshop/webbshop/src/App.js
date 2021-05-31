@@ -2,7 +2,6 @@ import './App.css';
 import Header from './Components/Header';
 import Container from './Components/Container';
 import {useState} from 'react';
-import axios from 'axios'
 import data from "./data.json"
 
 function App() {
@@ -13,13 +12,13 @@ function App() {
 
 
   const Login = (loginDetails)=>{
-    console.log(loginDetails)
+    console.log(loginDetails);
   }
   
   return (
     <div className="App" >
-      <Header user={user} createAccount = {createAccount}/>
-      <Container articles={articles} Login = {Login} />
+      <Header user={user} createAccount = {createAccount} Login = {Login}/>
+      <Container articles={articles}/>
 
     </div>
   );
