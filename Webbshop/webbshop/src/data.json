@@ -60,6 +60,15 @@
         "price": 20000,
         "stock": 5,
         "description": "En väldigt fin tv-apparat"
+    },
+    {
+        "id": 8,
+        "name": "Playstation 5",
+        "type": "console",
+        "brand": "Sony",
+        "price": 100000,
+        "stock": 1,
+        "description": "Blä"
     }
     
 ]

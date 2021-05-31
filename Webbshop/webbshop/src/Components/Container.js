@@ -3,11 +3,11 @@ import ArticleWindow from './ArticleWindow';
 import SidebarLeftSearch from './SidebarLeftSearch';
 import SidebarRightAdds from './SidebarRightAdds';
 
-const Container = ({articles}) => {
+const Container = ({fetch, articles}) => {
     return (
         <div className='container'>
             <SidebarLeftSearch />
-            <ArticleWindow  artilces={articles}/>
+            <ArticleWindow  artilces= {articles}/>
             <SidebarRightAdds />
         </div>
     )
