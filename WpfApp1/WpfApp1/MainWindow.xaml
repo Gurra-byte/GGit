@@ -1,0 +1,58 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="800" Width="800">
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="20"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+
+        <Expander x:Name="SearchValueExpander" Grid.Column="1" Grid.Row="1" Header="Name" Margin="10, 0, 0, 0">
+            <StackPanel Margin="2">
+                <!--<TextBlock Text="Id"/>
+                <TextBlock Text="¨Name"/>
+                <TextBlock Text="Type"/>
+                <TextBlock Text="Brand"/>
+                <TextBlock Text="Price"/>
+                <TextBlock Text="Stock"/>-->
+                <ListBox x:Name="SearchValueSelector" SelectionChanged="SearchValueSelector_SelectionChanged">
+                    <ListBoxItem x:Name="SearValueExpanderItemId" Content="Id"/>
+                    <ListBoxItem x:Name="SearValueExpanderItemName" Content="Name"/>
+                    <ListBoxItem x:Name="SearValueExpanderItemType" Content="Type"/>
+                    <ListBoxItem x:Name="SearValueExpanderItemBrand" Content="Brand"/>
+                    <ListBoxItem x:Name="SearValueExpanderItemPrice" Content="Price"/>
+                    <ListBoxItem x:Name="SearValueExpanderItemStock" Content="Stock"/>
+                </ListBox>
+            </StackPanel>
+        </Expander>
+            
+        <TextBox x:Name="ArticleText" Grid.Column="1" Grid.Row="2" Margin="10, 0, 10, 0" Width="150"/>
+        <Button x:Name="SearchButton" Grid.Column="1" Grid.Row="3" Margin="10, 10, 10, 10" Content="Search" Width="125" Click="SearchClick"/>
+        
+        <Button x:Name="CreateArticleButton" Content="Create New Article" Grid.Column="4" Grid.Row="3" Margin="10 ,10 ,10 ,10" Width="125" Height="20" MinWidth="4" Click="CreateArticleButton_Click"/>
+        <Button x:Name="EditArticleButton" Content="Edit Article" Grid.Column="3" Grid.Row="3" Margin="10 ,10 ,10 ,10" Width="125" Height="20" MinWidth="4" Click="EditArticleButton_Click" />
+        <Button x:Name="DeleteArticleButton" Content="Delete Article" Grid.Column="2" Grid.Row="3" Width="125" Height="20" MinWidth="4" Click="DeleteArticleButton_Click"/>
+        <ListBox x:Name="ArticleFoundListBox" Grid.Column="1" Grid.Row="4" Grid.ColumnSpan="4" Grid.RowSpan="4" MaxHeight="600" />
+
+    </Grid>
+</Window>

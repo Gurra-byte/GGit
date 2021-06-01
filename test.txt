@@ -1,0 +1,567 @@
+{
+"id": 1,
+"name" : "Asus TUF VG27AQ + 1",
+"type" : "Monitor",
+"brand" : "Asus",
+"price" : 3990,
+"stock" : 20,
+"description" : "Edited"
+},
+{
+"id": 2,
+"name" : "Samsung Odyssey C27RG50 27"",
+"type" : "Monitor",
+"brand" : "Samsung",
+"price" : 3490,
+"stock" : 2,
+"description" : ""
+},
+{
+"id": 3,
+"name" : "AMD Ryzen 7 5800X",
+"type" : "CPU",
+"brand" : "AMD",
+"price" : 4975,
+"stock" : 0,
+"description" : ""
+},
+{
+"id": 4,
+"name" : "Corsair Vengeance LPX Black 32GB (2x16GB)",
+"type" : "RAM",
+"brand" : "Corsair",
+"price" : 2449,
+"stock" : 5,
+"description" : ""
+},
+{
+"id": 5,
+"name" : "ASUS ROG Strix X570-F Gaming",
+"type" : "Motherboard",
+"brand" : "Asus",
+"price" : 2849,
+"stock" : 10,
+"description" : ""
+},
+{
+"id": 6,
+"name" : "ASUS TUF GeForce RTX 3080 10GB Gaming OC",
+"type" : "GPU",
+"brand" : "Asus",
+"price" : 2,
+"stock" : 3000,
+"description" : "Det finns GPU:er till alla."
+},
+{
+"id": 7,
+"name" : "Apple iPad Air 4th gen.",
+"type" : "Notepad",
+"brand" : "Apple",
+"price" : 6890,
+"stock" : 50,
+"description" : ""
+},
+{
+"id": 8,
+"name" : "Lenovo IdeaPad 3 14IIL05",
+"type" : "Laptop",
+"brand" : "Lenovo",
+"price" : 5990,
+"stock" : 20,
+"description" : ""
+},
+{
+"id": 9,
+"name" : "Seagate Expansion Portable - 5TB",
+"type" : "External Storage",
+"brand" : "Seagate",
+"price" : 1144,
+"stock" : 2,
+"description" : ""
+},
+{
+"id": 10,
+"name" : "Samsung Portable SSD T5 1TB (USB 3.1) Black",
+"type" : "External Storage",
+"brand" : "Samsung",
+"price" : 13490,
+"stock" : 15,
+"description" : ""
+},
+{
+"id": 11,
+"name" : "Samsung Portable SSD T7 1TB (USB 3.2) - Röd",
+"type" : "External Storage",
+"brand" : "Samsung",
+"price" : 1649,
+"stock" : 20,
+"description" : ""
+},
+{
+"id": 12,
+"name" : "Samsung Odyssey G9 C49G95",
+"type" : "Monitor",
+"brand" : "Samsung",
+"price" : 14990,
+"stock" : 15,
+"description" : ""
+},
+{
+"id": 13,
+"name" : "ASUS ROG STRIX B450-F GAMING II",
+"type" : "Motherboard",
+"brand" : "Asus",
+"price" : 1289,
+"stock" : 4,
+"description" : ""
+},
+{
+"id": 14,
+"name" : "MSI GeForce RTX 3070 GAMING X TRIO 8GB",
+"type" : "GPU",
+"brand" : "MSI",
+"price" : 9490,
+"stock" : 45,
+"description" : ""
+},
+{
+"id": 17,
+"name" : "Gorenje Advanced line kylskåp R86192W",
+"type" : "Refrigirator",
+"brand" : "Gorenje",
+"price" : 6995,
+"stock" : 2,
+"description" : ""
+},
+{
+"id": 18,
+"name" : "Samsung kylskåp RR40M71657F/EE (rostfritt stål)",
+"type" : "Refrigirator",
+"brand" : "Samsung",
+"price" : 9770,
+"stock" : 2,
+"description" : ""
+},
+{
+"id": 19,
+"name" : "Matsui minikylskåp MML50B18E",
+"type" : "Refrigirator",
+"brand" : "Matsui",
+"price" : 1095,
+"stock" : 5,
+"description" : ""
+},
+{
+"id": 20,
+"name" : "Matsui kyl/frys M174CW18E",
+"type" : "Refrigirator",
+"brand" : "Matsui",
+"price" : 2790,
+"stock" : 5,
+"description" : ""
+},
+{
+"id": 21,
+"name" : "Samsung Kyl Frys Kombiskåp RB34J3515WW (185 cm)",
+"type" : "Refrigirator",
+"brand" : "Samsung",
+"price" : 7495,
+"stock" : 5,
+"description" : ""
+},
+{
+"id": 22,
+"name" : "Gorenje ugn BOP8737B",
+"type" : "Oven",
+"brand" : "Gorenje",
+"price" : 5995,
+"stock" : 21,
+"description" : ""
+},
+{
+"id": 23,
+"name" : "Siemens iQ700 inbyggnadsugn HB672GBS1S",
+"type" : "Oven",
+"brand" : "Siemens",
+"price" : 6990,
+"stock" : 45,
+"description" : ""
+},
+{
+"id": 24,
+"name" : "Samsung integrerad ugn NV70K1340BS",
+"type" : "Oven",
+"brand" : "Samsung",
+"price" : 3006,
+"stock" : 7,
+"description" : ""
+},
+{
+"id": 25,
+"name" : "Samsung 58" AU7175 UHD 4K Smart TV UE58AU7175",
+"type" : "TV",
+"brand" : "Samsung",
+"price" : 6666,
+"stock" : 2,
+"description" : ""
+},
+{
+"id": 26,
+"name" : "LG 55" CX 4K OLED TV OLED55CX (2020)",
+"type" : "TV",
+"brand" : "LG",
+"price" : 12890,
+"stock" : 7,
+"description" : "En väldigt bra TV-apparat!!"
+},
+{
+"id": 27,
+"name" : "Samsung 65" Q700T 8K UHD QLED Smart QE65Q700TAT (2020)",
+"type" : "TV",
+"brand" : "Samsung",
+"price" : 14990,
+"stock" : 4,
+"description" : ""
+},
+{
+"id": 28,
+"name" : "Samsung 43" TU7175 4K UHD Smart-TV UE43TU7175",
+"type" : "TV",
+"brand" : "Samsung",
+"price" : 4890,
+"stock" : 2,
+"description" : ""
+},
+{
+"id": 29,
+"name" : "Canon EOS 250D DSLR kamera + EF-S 18-55 mm III objektiv",
+"type" : "Camera",
+"brand" : "Canon",
+"price" : 6490,
+"stock" : 5,
+"description" : ""
+},
+{
+"id": 30,
+"name" : "TCL 40" ES560 Full HD Smart TV 40ES560",
+"type" : "TV",
+"brand" : "TCL",
+"price" : 3990,
+"stock" : 4,
+"description" : ""
+},
+{
+"id": 31,
+"name" : "APPLE iPhone 11 Pro - 256GB - Guld",
+"type" : "Smartphone",
+"brand" : "Apple",
+"price" : 9990,
+"stock" : 6,
+"description" : ""
+},
+{
+"id": 32,
+"name" : "HUAWEI P30 Pro - 128GB - BLACK",
+"type" : "Smartphone",
+"brand" : "Huawei",
+"price" : 7987,
+"stock" : 8,
+"description" : ""
+},
+{
+"id": 33,
+"name" : "SAMSUNG Galaxy S20 FE 4G 128GB (6GB RAM) 6.5" Smartphone - Cloud Lavendel",
+"type" : "Smartphone",
+"brand" : "Samsung",
+"price" : 6990,
+"stock" : 2,
+"description" : ""
+},
+{
+"id": 34,
+"name" : "APPLE iPhone 12 mini 5G 64GB - 5.4" Smartphone - Svart",
+"type" : "Smartphone",
+"brand" : "Apple",
+"price" : 7990,
+"stock" : 56,
+"description" : ""
+},
+{
+"id": 35,
+"name" : "SAMSUNG Galaxy a21s - Svart",
+"type" : "Smartphone",
+"brand" : "Samsung",
+"price" : 1990,
+"stock" : 5,
+"description" : ""
+},
+{
+"id": 36,
+"name" : "SAMSUNG Galaxy a21s - Blå",
+"type" : "Smartphone",
+"brand" : "Samsung",
+"price" : 1990,
+"stock" : 7,
+"description" : ""
+},
+{
+"id": 37,
+"name" : "MOTOROLA moto g8 Power Lite 4GB+64GB - Royal Blue",
+"type" : "Smartphone",
+"brand" : "Motorola",
+"price" : 1790,
+"stock" : 5,
+"description" : ""
+},
+{
+"id": 38,
+"name" : "SAMSUNG Galaxy A51 128GB (4GB RAM) 6.5" Smartphone - Svart",
+"type" : "Smartphone",
+"brand" : "Samsung",
+"price" : 3490,
+"stock" : 5,
+"description" : ""
+},
+{
+"id": 39,
+"name" : "APPLE iPhone 12 Pro 5G 128GB - 6.1" Smartphone - Stillahavsblå",
+"type" : "Smartphone",
+"brand" : "Apple",
+"price" : 12490,
+"stock" : 6,
+"description" : ""
+},
+{
+"id": 40,
+"name" : "XIAOMI Mi 10T 5G 8GB+128GB - Cosmic Black",
+"type" : "Smartphone",
+"brand" : "Xiaomi",
+"price" : 5787,
+"stock" : 5,
+"description" : ""
+},
+{
+"id": 41,
+"name" : "SAMSUNG Galaxy Note20 5G 256GB (8GB RAM) 6.7" Smartphone - Grå",
+"type" : "Smartphone",
+"brand" : "Samsung",
+"price" : 7587,
+"stock" : 6,
+"description" : ""
+},
+{
+"id": 42,
+"name" : "SAMSUNG Galaxy A71 128GB (6GB RAM) 6.7" Smartphone - Svart",
+"type" : "Smartphone",
+"brand" : "Samsung",
+"price" : 4490,
+"stock" : 7,
+"description" : ""
+},
+{
+"id": 43,
+"name" : "SAMSUNG Galaxy A71 128GB (6GB RAM) 6.7" Smartphone - Blå",
+"type" : "Smartphone",
+"brand" : "Samsung",
+"price" : 4490,
+"stock" : 3,
+"description" : ""
+},
+{
+"id": 44,
+"name" : "SAMSUNG Galaxy XCover Pro 64GB (4GB RAM) 6.3" Smartphone - Svart",
+"type" : "Smartphone",
+"brand" : "Samsung",
+"price" : 5490,
+"stock" : 3,
+"description" : ""
+},
+{
+"id": 45,
+"name" : "HYPERX Alloy FPS RGB - Gamingtangentbord",
+"type" : "Keyboard",
+"brand" : "HyperX",
+"price" : 799,
+"stock" : 3,
+"description" : ""
+},
+{
+"id": 46,
+"name" : "DELTACO GAMING mini mekaniskt tangentbord, 60% PAN-Nordisk Layout, RGB, bruna brytare - Svart",
+"type" : "Keyboard",
+"brand" : "Detaco",
+"price" : 690,
+"stock" : 5,
+"description" : ""
+},
+{
+"id": 47,
+"name" : "STEELSERIES Apex Pro TKL - Gamingtangentbord",
+"type" : "Keyboard",
+"brand" : "Steelseries",
+"price" : 2189,
+"stock" : 3,
+"description" : ""
+},
+{
+"id": 48,
+"name" : "APPLE Magic Keyboard med numerisk del (svenskt) – Rymdgrå",
+"type" : "Keyboard",
+"brand" : "Apple",
+"price" : 1490,
+"stock" : 6,
+"description" : ""
+},
+{
+"id": 49,
+"name" : "CORSAIR K55 RGB Gamingtangentbord - Svart",
+"type" : "Keyboard",
+"brand" : "Corsair",
+"price" : 549,
+"stock" : 7,
+"description" : ""
+},
+{
+"id": 50,
+"name" : "Brother DCP-J772DW",
+"type" : "Printer",
+"brand" : "Brother",
+"price" : 1449,
+"stock" : 8,
+"description" : ""
+},
+{
+"id": 51,
+"name" : "Canon MAXIFY MB2150",
+"type" : "Printer",
+"brand" : "Canon",
+"price" : 1489,
+"stock" : 45,
+"description" : ""
+},
+{
+"id": 52,
+"name" : "Canon PIXMA TR4550",
+"type" : "Printer",
+"brand" : "Canon",
+"price" : 759,
+"stock" : 7,
+"description" : ""
+},
+{
+"id": 53,
+"name" : "Epson EcoTank ET-2720",
+"type" : "Printer",
+"brand" : "Epson",
+"price" : 2899,
+"stock" : 5,
+"description" : ""
+},
+{
+"id": 54,
+"name" : "Epson Expression Photo XP-8600",
+"type" : "Printer",
+"brand" : "Epson",
+"price" : 1790,
+"stock" : 5,
+"description" : ""
+},
+{
+"id": 55,
+"name" : "Epson WorkForce Pro WF-3825DWF",
+"type" : "Printer",
+"brand" : "Epson",
+"price" : 2299,
+"stock" : 7,
+"description" : ""
+},
+{
+"id": 56,
+"name" : "Canon MAXIFY MB5150",
+"type" : "Printer",
+"brand" : "Canon",
+"price" : 2059,
+"stock" : 89,
+"description" : ""
+},
+{
+"id": 57,
+"name" : "Epson Expression Home XP-5100",
+"type" : "Printer",
+"brand" : "Canon",
+"price" : 999,
+"stock" : 4,
+"description" : ""
+},
+{
+"id": 58,
+"name" : "HP PageWide Pro 477dw",
+"type" : "Printer",
+"brand" : "HP",
+"price" : 6190,
+"stock" : 8,
+"description" : ""
+},
+{
+"id": 59,
+"name" : "Fish",
+"type" : "blä",
+"brand" : "asd",
+"price" : 2000,
+"stock" : 21,
+"description" : ""
+},
+{
+"id": 60,
+"name" : "Asus 24" Monitor G-sync",
+"type" : "Monitor",
+"brand" : "Asus",
+"price" : 9999,
+"stock" : 4,
+"description" : "En jävligt bra Monitor"
+},
+{
+"id": 61,
+"name" : "LG  MegaToaster",
+"type" : "Toaster",
+"brand" : "LG",
+"price" : 700000,
+"stock" : 1,
+"description" : "Jävligt fin brödrost."
+},
+{
+"id": 62,
+"name" : "",
+"type" : "",
+"brand" : "",
+"price" : 0,
+"stock" : 0,
+"description" : ""
+},
+{
+"id": 63,
+"name" : "Gustav",
+"type" : "Höglund",
+"brand" : "Blä",
+"price" : 0,
+"stock" : 0,
+"description" : ""
+},
+{
+"id": 64,
+"name" : "Asus z490e",
+"type" : "Motherboard",
+"brand" : "Asus",
+"price" : 2500,
+"stock" : 4,
+"description" : "A motherboard that is to small to fit the dark rock pro and 4 ram sticks."
+},
+{
+"id": 65,
+"name" : "Asus z490e strix gamming",
+"type" : "Motherboard",
+"brand" : "Asus",
+"price" : 4500,
+"stock" : 5,
+"description" : ""
+}
