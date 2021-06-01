@@ -3,12 +3,12 @@ import TitleHomeLink from './TitleHomeLink';
 import LoginWindow from './LoginWindow';
 
 
-const Header = ({user, createAccount, Login}) => {
+const Header = ({user, showCreateAccount, createAccount, Login}) => {
     
     return (
         <header className='header'>
             <TitleHomeLink />
-            <LoginWindow  user = {user} createAccount = {createAccount} Login= {Login} />            
+            <LoginWindow  user = {user} showCreateAccount = {showCreateAccount} createAccount = {createAccount} Login= {Login} />            
         </header>
     )
 }

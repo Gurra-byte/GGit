@@ -22,14 +22,13 @@ namespace WpfApp1
             
             string[] curly = new string[] {"{", "}"};
 
-            using (StreamWriter sw = new StreamWriter(@"C:\Users\Gustav\Desktop\GGit\test.txt"))
+            using (StreamWriter sw = new StreamWriter(@"C:\Users\Gusta\Desktop\GGit\test.txt"))
             {
                 string line = "";
                 Article lastItem = Articles[Articles.Count - 1];
-                if (
-                    line == "[")
-                {
-                }
+
+                sw.WriteLine("[");
+                
                 foreach (var article in Articles)
                 {
                     if(article != lastItem)
@@ -52,7 +51,8 @@ namespace WpfApp1
                        $"\"price\" : {lastItem._Price},\n" +
                        $"\"stock\" : {lastItem._Stock},\n" +
                        $"\"description\" : \"{lastItem._Description}\"\n" +
-                       $"{curly[1]}");
+                       $"{curly[1]}" +
+                       $"\n]");
                     }
                 }   
             }
