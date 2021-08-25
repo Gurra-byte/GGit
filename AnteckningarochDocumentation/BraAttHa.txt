@@ -3,3 +3,7 @@ using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(Helper
 {
 
 }
+
+
+services.AddDbContext<AddDbContext>(options => 
+	options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
