@@ -1,0 +1,2 @@
+"DefaultConnection": "Server=localhost;Database=GustavDb;TrustedConnection=True;"
+
